@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sardar singh lodhi</title>
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap 5.2 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Fontawesome 6.2 icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- AOS css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+ <!--  Top scroll progress-bar  -->
+ <div id="scroll-progress"></div>
+ 
+ <!-- Back to top button -->
+ <button type="button" class="btn btn-primary btn-lg shadow-lg" id="btn-back-to-top">
+   <i class="fas fa-arrow-up"></i>
+ </button>
+<!-- Navbar start -->
+  <nav class="navbar navbar-expand-md navbar-expand-lg bg-white sticky-top shadow-sm">
+  <div class="container-fluid position-relative">
+    <a class="navbar-brand py-2 fs-1" href="index.html">Port<span class="text-primary">folio</span></a>
+    <small class="text-start position-absolute top-0 start-0" style="font-size: 10px; margin-top: 44px; margin-left: 14px;">Sardar singh lodhi</small>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <div class="navbar-icon">
+         <span></span><span></span><span></span>
+       </div>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto pt-2 pt-md-0 pt-lg-0 mb-2 mb-lg-0 bg-primary mt-2">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skill.html">Skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="education.html">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item pb-1">
+          <a class="nav-link" href="mailto:lodhisardarsingh584@gmail.com&
+          bcc=lodhisardarsingh584@gmail.com
+          &subject=feadback
+          &body=Add what you want to suggest">
+          Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar end -->
+  
+<!-- Header start -->
+<div class="header container-fluid d-flex align-items-center py-5">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-7 col-lg-7 text-center text-lg-left mt-3">
+      <h3 class="text-white fw-normal mb-3">Hello Everyone, I'm</h3>
+      <h3 class="text-white fw-normal mb-3"></h3>
+      <h1 class="text-white text-uppercase" style="-webkit-text-stroke: 2px;">sardar singh lodhi</h1>
+      <!-- typewriter -->
+      <h1 class="typewriter mx-auto text-white fw-lighter">Front-End Developer</h1>
+      <!-- Buttons -->
+      <div class="d-flex align-items-center justify-content-center pt-5">
+         <a class="resume-btn btn btn-warning" data-bs-toggle="modal" data-bs-target="#Resume" type="button">View resume</a>
+         <a class="btn btn-outline-light ms-2" href="about.html" type="button">About me</a>
+      </div>
+      <!--  Modal  -->
+      <div class="modal fade" data-aos="zoom-in" id="Resume" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-primary" id="exampleModalLabel"><i class="fa-solid fa-file text-primary me-1"></i>Resume</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mt-2" src="images//resume.jpg" alt="Sardar's Resume" id="downloadResume" />
+            </div>
+            <div class="modal-footer">
+              <a type="button" class="downloadBtn btn btn-outline-primary" href="image//resume.jpg" download="Sardar's Resume">Download
+                <i class="fa-solid fa-cloud-arrow-down ms-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="profile-img col-12 col-md-5 col-lg-5 px-8 pl-md-0 pl-lg-0 pb-5 pb-md-4 pb-lg-4 mt-3 mt-md-0 mt-lg-0">
+      <img class="img-fluid w-100 rounded-circle shadow-sm" src="images//profile.jpg" alt="profile.jpg" />
+    </div>
+  </div>
+</div>
+<!-- Header end -->
+
+<!-- About start -->
+<div class="about container-fluid bg-light">
+  <div class="position-relative d-flex align-items-center justify-content-center py-4">
+    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">
+      About
+    </h1>
+    <h1 class="position-absolute text-uppercase text-primary">About</h1>
+  </div>
+   <p class="ms-md-2 ms-lg-2">I'm Fresher, Immediate joiner, Looking for better apportunity as a Front End Web Designer, I have completed my engineering in 2022 with computer science stream, I'm good in front end designing and I have prepared the relevant language for it.</p>
+    <div class="row align-items-center pb-4">
+      <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+        <div class="ms-md-2 ms-lg-2">
+          <h6>
+            <i class="fa-solid fa-file-signature"></i>
+            Name: <span class="text-primary">Sardar singh lodhi</span>
+          </h6>
+          
+          <h6>
+            <i class="fa-solid fa-calendar"></i> 
+            Birthday: <span class="text-primary">08 Feb 2001</span>
+          </h6>
+          <h6>
+            <i class="fa-solid fa-building-columns"></i>
+            College: <span class="text-primary">Technocrats institute of technology & sceince bhopal (m.p) <small class="bg-info px-2 rounded text-dark">University: RGPV</small> </span>
+          </h6>
+          <h6>
+           <i class="fa-solid fa-graduation-cap"></i>
+           Degree: <span class="text-primary">Bachelor's of technology</span>
+          </h6>
+          
+          
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+        <div class="ms-md-2 ms-lg-2">
+          <h6>
+            <i class="fa-solid fa-medal"></i>
+            Experience: <span class="text-primary">Fresher</span>
+          </h6>
+           <h6>
+             <i class="fa-solid fa-star"></i>
+             Hobby: <span class="text-primary">Playing cricket, Listening song</span>
+           </h6>
+        <h6>
+          <i class="fa-solid fa-phone-volume"></i> 
+          Phone: <span class="text-primary">+91 9302975300</span>
+          </h6>
+          
+        <h6>
+          <i class="fa-solid fa-envelope"></i> 
+          Email: <span class="text-primary">lodhisardarsingh584@gmail.com</span>
+          </h6>
+          
+        <h6>
+          <i class="fa-solid fa-location-dot"></i> 
+          Address: <span class="text-primary">Bhopal, madhya pradesh, india</span>
+          </h6>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- About end -->
+
+<!-- Skill start -->
+<div class="skill container-fluid">
+  <div class="position-relative d-flex align-items-center justify-content-center py-4">
+    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">
+      Skill
+    </h1>
+    <h1 class="position-absolute text-uppercase text-primary">Skill</h1>
+  </div>
+  <div class="row pb-4">
+    <!-- 1st Skill -->
+    <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+         <div class="skill mb-4">
+           <div class="d-flex justify-content-between">
+             <h6><i class="fa-brands fa-html5 text-danger me-1"></i>HTML5</h6>
+             <h5 class="">90%</h5>
+           </div>
+           <div class="progress">
+             <div class="progress-bar bg-danger percentage" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
+           </div>
+         </div>
+    </div>
+    <!-- 2nd Skill -->
+    <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+      <div class="skill mb-4">
+        <div class="d-flex justify-content-between">
+          <h6><i class="fa-brands fa-css3-alt text-info me-1"></i>CSS3</h6>
+          <h5 class="">90%</h5>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-info percentage" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
+        </div>
+      </div>
+    </div>
+     <!-- 3rd Skill -->
+ <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+   <div class="skill mb-4">
+     <div class="d-flex justify-content-between">
+       <h6><i class="fa-brands fa-js text-warning me-1"></i>Javascript</h6>
+       <h5 class="">80%</h5>
+     </div>
+     <div class="progress">
+       <div class="progress-bar bg-warning percentage" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;"></div>
+     </div>
+   </div>
+ </div>
+ <!-- 4th Skill -->
+ <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+   <div class="skill mb-4">
+     <div class="d-flex justify-content-between">
+       <h6><i class="fa-brands fa-angular text-danger me-1"></i>Angular</h6>
+       <h5 class="">75%</h5>
+     </div>
+     <div class="progress">
+       <div class="progress-bar bg-danger percentage" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%;"></div>
+     </div>
+   </div>
+ </div>
+ <!-- 5th Skill -->
+ <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+   <div class="skill mb-4">
+     <div class="d-flex justify-content-between">
+       <h6><i class="fa-brands fa-bootstrap text-purple me-1"></i>Bootstrap</h6>
+       <h5 class="">80%</h5>
+     </div>
+     <div class="progress">
+       <div class="progress-bar bg-purple percentage" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;"></div>
+     </div>
+   </div>
+ </div>
+ <!-- 6th Skill -->
+ <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+   <div class="skill mb-4">
+     <div class="d-flex justify-content-between">
+       <h6><i class="fa-brands fa-github text-dark me-1"></i>GitHub</h6>
+       <h5 class="">80%</h5>
+     </div>
+     <div class="progress">
+       <div class="progress-bar bg-dark percentage" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;"></div>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+<!-- Skill end -->
+    
+<!-- Education start -->
+<div class="education container-fluid bg-light">
+  <div class="position-relative d-flex align-items-center justify-content-center py-4">
+    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">
+      Education
+    </h1>
+    <h1 class="position-absolute text-uppercase text-primary">Education</h1>
+  </div>
+ <div class="row pb-4">
+       <!-- 1st education -->
+       <div class="col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+         <div class="card w-100 shadow-sm">
+           <div class="card-body">
+             <h5 class="text-primary">Bachelor's of Technology</h5>
+             <small>Computer Science & Engineering</small>
+             <p><strong>Technocrats Institute of Technology & Science Bhopal (M.p.)</strong></p>
+             <small>2018 - 2022</small>
+             <p>84.6%</p>
+           </div>
+         </div>
+       </div>
+       <!-- 2nd education -->
+       <div class="col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+         <div class="card w-100 shadow-sm mt-5 mt-md-0 mt-lg-0">
+           <div class="card-body">
+             <h5 class="text-primary">12th</h5>
+             <small>PCM</small>
+             <p>
+               <strong>Saraswati Vidhya Mandir A-sector Piplani, Bhopal (M.p.)</strong>
+             </p>
+             <small>2017 - 2018</small>
+             <p>63.4%</p>
+           </div>
+         </div>
+       </div>
+       <!-- 3rd education -->
+       <div class="col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+         <div class="card w-100 shadow-sm mt-5 mt-md-0 mt-lg-0">
+           <div class="card-body">
+             <h5 class="text-primary">10th</h5>
+             <small>General</small>
+             <p><strong>Saraswati Vidhya Mandir A-sector Piplani, Bhopal (M.p.)</strong></p>
+             <small>2015 - 2016</small>
+             <p>73%</p>
+           </div>
+         </div>
+       </div>
+ </div>
+</div>
+<!-- Education end -->
+
+<!-- Portfolio start -->
+<div class="portfolio container-fluid">
+  <div class="position-relative d-flex align-items-center justify-content-center py-4">
+    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">
+      Portfolio
+    </h1>
+    <h1 class="position-absolute text-uppercase text-primary">Portfolio</h1>
+  </div>
+  <div class="row portfolio-container">
+    <div class="col-md-6 col-lg-4 mb-2 portfolio-item" data-aos="fade-up" data-aos-duration="2000">
+      <div class="position-relative shadow-sm overflow-hidden mb-2">
+        <img class="img-fluid rounded w-100" src="images//manomay.jpg" alt="" />
+        <div class="portfolio-btn btn-primary d-flex align-items-center justify-content-center">
+          <a href="http://manomay.org"><i class="fa-solid fa-plus text-white"style="font-size: 60px;"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio end -->
+
+<!-- Profile start -->
+<div class="profile container-fluid">
+   <div class="position-relative d-flex align-items-center justify-content-center py-4">
+     <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">
+       Profile
+     </h1>
+     <h1 class="position-absolute text-uppercase text-primary">Profile</h1>
+   </div>
+  <div class="row">
+    <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+      <a href="http://www.linkedin.com/in/sardarsinghlodhi" class="me-4 text-reset">
+        <div class="card w-100 shadow-sm mt-5 mt-md-0 mt-lg-0">
+          <div class="card-body position-relative">
+            <i class="fab fa-linkedin fs-1 text-center text-primary position-absolute top-0 start-50 mt-5 pb-3 translate-middle"></i>
+            <h1 class="text-center mt-5"><span class="counter">100</span><span>+</span></h1>
+            <h4 class="text-center">Follower's</h4>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+      <a href="https://github.com/Sardarsinghlodhi" id="msg" class="me-4 text-reset" onmouseover="msg()">
+        <div class="card w-100 shadow-sm mt-5 mt-md-0 mt-lg-0">
+          <div class="card-body position-relative">
+            <i class="fab fa-github fs-1 text-center text-dark position-absolute top-0 start-50 mt-5 pb-3 translate-middle"></i>
+            <h1 class="text-center mt-5"><span class="counter">10</span><span>+</span></h1>
+            <h4 class="text-center">Project's</h4>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- Profile end -->
+
+<!-- Foooter start -->
+ <footer class="footer text-center text-lg-start bg-light">
+   <!-- Copyright -->
+   <div class="copyright text-center p-4">
+     <p>© 2022 Copyright | Sardar Singh Lodhi</p>
+   </div>
+ </footer>
+<!-- Foooter end -->
+
+  <!-- Bootstrap 5.2 js -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!-- Jquery 3.6.1 -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+   <!-- External js -->
+   <script>
+     $(document).ready(function() {
+       $('.counter').counterUp({
+         delay: 10,
+         time: 1000
+       });
+     });
+   </script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
+    <script src="main.js"></script>
+</body>
+</html>
+ 
+
+
